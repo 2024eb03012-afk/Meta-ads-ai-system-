@@ -615,3 +615,924 @@ Task Creation Failed: {"code":500,"msg":"File type not supported","data":null}
  GET /api/ads 200 in 1161ms
  GET /api/reels 200 in 789ms
  ✓ Compiled in 141ms (336 modules)
+ GET /api/projects 200 in 47ms
+ GET /api/stats 200 in 53ms
+ GET /api/projects 200 in 3ms
+ GET /api/stats 200 in 3ms
+ GET /api/reels 200 in 948ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 940ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1186ms
+ GET /api/reels 200 in 949ms
+ ✓ Compiled /api/generate-creatives in 280ms (561 modules)
+Task Creation Failed: {"code":500,"msg":"File type not supported","data":null}
+Task Creation Failed: {"code":500,"msg":"File type not supported","data":null}
+Task Creation Failed: {"code":500,"msg":"File type not supported","data":null}
+ POST /api/generate-creatives 200 in 10286ms
+ GET /api/reels 200 in 927ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1180ms
+ GET / 200 in 79ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1293ms
+ GET /api/reels 200 in 1298ms
+ GET /api/reels 200 in 799ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 863ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 825ms
+ GET /api/reels 200 in 994ms
+ ✓ Compiled in 222ms (730 modules)
+ GET /api/reels 200 in 858ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1079ms
+ GET / 200 in 51ms
+ GET /api/reels 200 in 851ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1079ms
+ GET /api/reels 200 in 776ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1015ms
+ ✓ Compiled /api/projects in 54ms (398 modules)
+ ✓ Compiled (400 modules)
+ GET /api/stats 200 in 100ms
+ GET /api/projects 200 in 100ms
+ GET /api/stats 200 in 2ms
+ GET /api/projects 200 in 2ms
+ GET /api/projects 200 in 4ms
+ GET /api/stats 200 in 4ms
+ GET /api/projects 200 in 3ms
+ GET /api/stats 200 in 3ms
+ GET /api/projects 200 in 12ms
+ GET /api/stats 200 in 16ms
+ GET /api/projects 200 in 6ms
+ GET /api/stats 200 in 7ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 876ms
+ GET /api/reels 200 in 875ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 884ms
+ GET /api/reels 200 in 813ms
+ GET /api/stats 200 in 25ms
+ GET /api/projects 200 in 23ms
+ GET /api/stats 200 in 8ms
+ GET /api/projects 200 in 9ms
+ GET /api/projects 200 in 43ms
+ GET /api/stats 200 in 54ms
+ GET /api/projects 200 in 7ms
+ GET /api/stats 200 in 7ms
+ ✓ Compiled /api/projects/[id] in 139ms (356 modules)
+ GET /api/projects/a7612c5f-8385-464b-86d8-4246f232396e 200 in 414ms
+ ✓ Compiled /api/ads in 79ms (398 modules)
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1261ms
+ ✓ Compiled /api/reels in 51ms (402 modules)
+ GET /api/reels 200 in 943ms
+ GET /api/reels 200 in 1005ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1199ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 895ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 842ms
+ GET /api/reels 200 in 942ms
+ GET /api/reels 200 in 955ms
+ ✓ Compiled /api/ads in 286ms (656 modules)
+ ✓ Compiled /api/reels in 0ms (390 modules)
+ ✓ Compiled (394 modules)
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1331ms
+ GET /api/reels 200 in 1395ms
+ GET / 200 in 58ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 841ms
+ GET /api/reels 200 in 881ms
+ GET /api/reels 200 in 771ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 992ms
+ ✓ Compiled /api/projects in 42ms (398 modules)
+ ✓ Compiled (400 modules)
+ GET /api/stats 200 in 119ms
+ GET /api/projects 200 in 118ms
+ GET /api/stats 200 in 2ms
+ GET /api/projects 200 in 2ms
+ GET /api/stats 200 in 20ms
+ GET /api/projects 200 in 21ms
+ GET /api/projects 200 in 7ms
+ GET /api/stats 200 in 8ms
+ GET /api/stats 200 in 14ms
+ GET /api/projects 200 in 15ms
+ GET /api/projects 200 in 18ms
+ GET /api/stats 200 in 20ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1165ms
+ GET /api/reels 200 in 911ms
+ GET /api/stats 200 in 23ms
+ GET /api/projects 200 in 16ms
+ GET /api/stats 200 in 5ms
+ GET /api/projects 200 in 6ms
+ GET /api/stats 200 in 13ms
+ GET /api/projects 200 in 13ms
+ GET /api/stats 200 in 8ms
+ GET /api/projects 200 in 7ms
+ GET /api/projects 200 in 14ms
+ GET /api/stats 200 in 16ms
+ GET /api/projects 200 in 6ms
+ GET /api/stats 200 in 7ms
+ GET /api/stats 200 in 13ms
+ GET /api/projects 200 in 14ms
+ GET /api/projects 200 in 8ms
+ GET /api/stats 200 in 9ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 882ms
+ GET /api/reels 200 in 912ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1217ms
+ GET /api/reels 200 in 771ms
+ GET /api/stats 200 in 30ms
+ GET /api/projects 200 in 27ms
+ GET /api/projects 200 in 5ms
+ GET /api/stats 200 in 6ms
+ GET /api/projects 200 in 13ms
+ GET /api/stats 200 in 16ms
+ GET /api/projects 200 in 7ms
+ GET /api/stats 200 in 8ms
+ GET /api/reels 200 in 886ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 2016ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1017ms
+ GET /api/reels 200 in 818ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1064ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1195ms
+ GET /api/reels 200 in 1283ms
+ GET /api/reels 200 in 789ms
+ GET /api/reels 200 in 1424ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1785ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1112ms
+ GET /api/reels 200 in 819ms
+ GET /api/reels 200 in 852ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 910ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 850ms
+ GET /api/reels 200 in 762ms
+ ✓ Compiled in 118ms (336 modules)
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/projects/route.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/page.js:52:7451
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/page.js:52:7496)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/projects/route.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 547ms (940 modules)
+ GET / 200 in 37ms
+ ✓ Compiled /_not-found in 72ms (943 modules)
+ GET /_next/static/css/app/layout.css?v=1773259896088 404 in 93ms
+ GET /_next/static/chunks/main-app.js?v=1773259896088 404 in 75ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 75ms
+ GET /_next/static/chunks/app/page.js 404 in 10ms
+ ✓ Compiled in 144ms (521 modules)
+ ✓ Compiled in 57ms (521 modules)
+ ✓ Compiled in 97ms (521 modules)
+ ✓ Compiled in 59ms (521 modules)
+ ✓ Compiled in 47ms (521 modules)
+ ✓ Compiled in 169ms (521 modules)
+ ✓ Compiled in 64ms (521 modules)
