@@ -97,10 +97,7 @@ export default function Home() {
                         <Brain size={18} className="text-white" />
                     </div>
                     <div>
-                        <div className="text-sm font-bold leading-tight" style={{ color: 'var(--text-primary)' }}>Meta Ads</div>
-                        <div className="text-xs font-medium" style={{ color: 'var(--text-secondary)' }}>
-                            Competitor Intelligence
-                        </div>
+                        <div className="text-base font-bold leading-tight tracking-tight" style={{ color: 'var(--text-primary)' }}>Meta Ads OS</div>
                     </div>
                 </div>
 
