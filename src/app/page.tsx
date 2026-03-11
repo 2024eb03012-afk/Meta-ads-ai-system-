@@ -9,10 +9,11 @@ import LoadingScreen from '@/components/LoadingScreen';
 import CompetitorTopVideoAdsForm from '@/components/CompetitorTopVideoAdsForm';
 import CompetitorAdsLibraryForm from '@/components/CompetitorAdsLibraryForm';
 import CreativeResearchSystem from '@/components/CreativeResearchSystem';
-import { Brain, RefreshCw, Search, Zap, AlertCircle, Plus } from 'lucide-react';
+import AICreativeGenerator from '@/components/AICreativeGenerator';
+import { Brain, RefreshCw, Search, Zap, AlertCircle, Plus, Wand2 } from 'lucide-react';
 
 export default function Home() {
-    const [activeTab, setActiveTab] = useState<'ads' | 'reels' | 'research'>('ads');
+    const [activeTab, setActiveTab] = useState<'ads' | 'reels' | 'research' | 'creative'>('ads');
     const [ads, setAds] = useState<AdData[]>([]);
     const [reels, setReels] = useState<any[]>([]);
     const [loading, setLoading] = useState(true);
@@ -144,6 +145,12 @@ export default function Home() {
                     >
                         <Brain size={14} /> Creative Research
                     </button>
+                    <button
+                        onClick={() => setActiveTab('creative')}
+                        className={`px-4 py-1.5 rounded-lg text-sm font-medium transition-all flex items-center gap-1.5 ${activeTab === 'creative' ? 'bg-white shadow-sm border border-gray-200 text-blue-600' : 'text-gray-500 hover:text-gray-900 border border-transparent'}`}
+                    >
+                        <Wand2 size={14} /> AI Creative Generator
+                    </button>
                 </div>
 
                 {/* Right actions */}
@@ -214,6 +221,10 @@ export default function Home() {
             {activeTab === 'research' ? (
                 <main className="flex-1 overflow-hidden" style={{ background: 'var(--bg-primary)' }}>
                     <CreativeResearchSystem />
+                </main>
+            ) : activeTab === 'creative' ? (
+                <main className="flex-1 overflow-hidden flex flex-col" style={{ background: 'var(--bg-primary)' }}>
+                    <AICreativeGenerator />
                 </main>
             ) : (
                 <main className="flex-1 overflow-y-auto p-6" style={{ background: 'var(--bg-primary)' }}>
