@@ -28,3 +28,7 @@ yarn-error.log*
 .env
 
 /src/generated/prisma
+
+# SQLite databases
+*.db
+*.db-journal
