@@ -28,7 +28,7 @@ The research must deeply analyze:
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                model: 'sonar-reasoning',
+                model: 'sonar-pro',
                 messages: [
                     { role: 'system', content: 'You are a professional Meta Ads marketing researcher.' },
                     { role: 'user', content: query }
