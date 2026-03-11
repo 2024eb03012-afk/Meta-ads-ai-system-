@@ -151,35 +151,96 @@ The image must be scroll stopping and visually striking.`;
             };
         });
 
-        const apiKey = process.env.NANO_BANANA_API_KEY || '';
+        const apiKey = '5fbae96f07aa65bedc8d262c7e677e41';
 
-        // Mocking Nano Banana Image API generate step
-        // In reality, this would be a fetch to api.nanobanana.com/generate
         const finalResults = await Promise.all(nanoBananaPrompts.map(async (concept: any, i: number) => {
-            // Attempt to fetch from Nano Banana, fallback to placeholders if API throws/fails
             let imageUrl = '';
+            let apiError = '';
             try {
-                if (apiKey) {
-                    const nbResponse = await fetch('https://api.nanobanana.com/v1/generate', {
-                        method: 'POST',
-                        headers: { 'Authorization': `Bearer ${apiKey}`, 'Content-Type': 'application/json' },
-                        body: JSON.stringify({ prompt: concept.generatedPrompt, aspect_ratio: concept.aspectRatio })
-                    });
-                    if (nbResponse.ok) {
-                        const nbData = await nbResponse.json();
-                        imageUrl = nbData.image_url;
-                    } else {
-                        throw new Error('Nano Banana API Failed');
-                    }
-                } else {
-                    throw new Error('No API Key');
+                let nbRatio = "auto";
+
+                let bodyInput: any = {
+                    prompt: concept.generatedPrompt,
+                    aspect_ratio: nbRatio,
+                    google_search: false,
+                    resolution: "1K",
+                    output_format: "jpg"
+                };
+
+                // Add image if available
+                if (imageBase64) {
+                    bodyInput.image_input = [imageBase64];
                 }
-            } catch (err) {
-                // Fallback dummy images matching the luxury aspect ratio
+
+                const createTaskRes = await fetch('https://api.kie.ai/api/v1/jobs/createTask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${apiKey}`
+                    },
+                    body: JSON.stringify({
+                        model: 'nano-banana-2',
+                        input: bodyInput
+                    })
+                });
+
+                const taskData = await createTaskRes.json();
+
+                // If the prompt fails entirely on image parsing or validation
+                if (!taskData || !taskData.data || !taskData.data.taskId) {
+                    apiError = 'Task Creation Failed: ' + JSON.stringify(taskData);
+                    console.error(apiError);
+                } else {
+                    const taskId = taskData.data.taskId;
+                    let isCompleted = false;
+                    let attempts = 0;
+
+                    // Poll for completion (Max ~60 seconds)
+                    while (!isCompleted && attempts < 15) {
+                        await new Promise(resolve => setTimeout(resolve, 4000));
+
+                        const pollRes = await fetch(`https://api.kie.ai/api/v1/jobs/recordInfo?taskId=${taskId}`, {
+                            method: 'GET',
+                            headers: {
+                                'Authorization': `Bearer ${apiKey}`
+                            }
+                        });
+                        const pollData = await pollRes.json();
+
+                        if (pollData && pollData.data) {
+                            const status = (pollData.data.status || '').toUpperCase();
+                            if (status === 'SUCCESS' || status === 'COMPLETED' || status === 'FINISHED') {
+                                isCompleted = true;
+                                if (pollData.data.images && pollData.data.images.length > 0) {
+                                    imageUrl = pollData.data.images[0];
+                                } else if (pollData.data.imageUrl) {
+                                    imageUrl = pollData.data.imageUrl;
+                                } else if (pollData.data.output && Array.isArray(pollData.data.output)) {
+                                    imageUrl = pollData.data.output[0];
+                                } else if (typeof pollData.data.output === 'string') {
+                                    imageUrl = pollData.data.output;
+                                }
+                            } else if (status === 'FAILED' || status === 'ERROR') {
+                                apiError = 'Task rendering failed: ' + (pollData.data.error || 'Unknown API failure');
+                                break;
+                            }
+                        }
+                        attempts++;
+                    }
+                }
+
+            } catch (err: any) {
+                apiError = err.message || 'Unknown catch error';
+                console.error(err);
+            }
+
+            // Fallback placeholder if generation failed
+            if (!imageUrl) {
                 const width = concept.aspectRatio === '9:16' ? 576 : 1024;
                 const height = concept.aspectRatio === '9:16' ? 1024 : 1024;
                 const dummyColor = ['000000', '1A1A1A', '333333'][i];
                 imageUrl = `https://placehold.co/${width}x${height}/${dummyColor}/FFFFFF.png?text=Luxury+${concept.purpose.replace(/ /g, '+')}`;
+                concept.apiError = apiError;
             }
 
             return {
