@@ -28,16 +28,19 @@ export default function Home() {
         try {
             setError(null);
             setRefreshing(true);
-            const res = await fetch('/api/ads', { cache: 'no-cache' });
-            const json = await res.json();
-            if (json.success) {
-                setAds(json.data);
+            const [adsRes, reelsRes] = await Promise.all([
+                fetch('/api/ads', { cache: 'no-cache' }),
+                fetch('/api/reels', { cache: 'no-cache' })
+            ]);
+
+            const adsJson = await adsRes.json();
+            if (adsJson.success) {
+                setAds(adsJson.data);
                 setLastRefresh(new Date());
             } else {
                 setError('Failed to load data from Google Sheets');
             }
 
-            const reelsRes = await fetch('/api/reels', { cache: 'no-cache' });
             const reelsJson = await reelsRes.json();
             if (reelsJson.success) {
                 setReels(reelsJson.data);
