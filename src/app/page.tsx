@@ -89,15 +89,9 @@ export default function Home() {
                 }}
             >
                 {/* Logo */}
-                <div className="flex items-center gap-3">
-                    <div
-                        className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0"
-                        style={{ background: 'var(--accent-primary)' }}
-                    >
-                        <Brain size={18} className="text-white" />
-                    </div>
-                    <div>
-                        <div className="text-base font-bold leading-tight tracking-tight" style={{ color: 'var(--text-primary)' }}>Meta Ads OS</div>
+                <div className="flex items-center">
+                    <div className="text-xl font-extrabold tracking-tighter" style={{ color: 'var(--text-primary)' }}>
+                        <span className="text-[#2563EB] tracking-tight">Meta</span> Ads OS
                     </div>
                 </div>
 
