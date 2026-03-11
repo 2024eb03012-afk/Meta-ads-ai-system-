@@ -6,6 +6,13 @@ export async function POST(req: Request) {
         const body = await req.json();
         const { productName, productTagline, productCategory, highlightedBenefit, imageBase64 } = body;
 
+        // Send data to webhook unblockingly
+        fetch('https://n8n.smallgrp.com/webhook-test/f2ca3449-79ab-4551-aad3-856d3409769a', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(body)
+        }).catch(err => console.error('Webhook failed:', err));
+
         const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
         const systemPrompt = `You are an elite luxury creative director specialized in beauty and skincare marketing visuals.

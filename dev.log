@@ -588,3 +588,30 @@ Task Creation Failed: {"code":500,"msg":"File type not supported","data":null}
   coverImage: 9
 }
  GET /api/ads 200 in 885ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1161ms
+ GET /api/reels 200 in 789ms
+ ✓ Compiled in 141ms (336 modules)
