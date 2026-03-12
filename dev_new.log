@@ -1,0 +1,2074 @@
+
+> meta-ads-intelligence@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.5
+  - Local:        http://localhost:3000
+  - Environments: .env
+
+ ✓ Starting...
+ ✓ Ready in 1063ms
+ ✓ Compiled /api/ads in 322ms (93 modules)
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1611ms
+ ✓ Compiled /api/reels in 33ms (97 modules)
+ GET /api/reels 200 in 976ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1216ms (656 modules)
+ ✓ Compiled in 90ms (336 modules)
+ GET / 200 in 1321ms
+ ✓ Compiled /api/reels in 405ms (390 modules)
+ ✓ Compiled (394 modules)
+ GET /api/reels 200 in 1241ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1396ms
+ GET /api/reels 200 in 759ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 999ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1036ms
+ GET /api/reels 200 in 847ms
+ GET / 200 in 76ms
+ GET /api/reels 200 in 856ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 918ms
+ GET /api/reels 200 in 795ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 801ms
+ GET / 200 in 107ms
+ GET /api/reels 200 in 869ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1192ms
+ GET /api/reels 200 in 757ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 837ms
+ GET /api/reels 200 in 903ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1326ms
+ ✓ Compiled /api/projects in 141ms (398 modules)
+ ✓ Compiled (400 modules)
+ GET /api/projects 200 in 254ms
+ GET /api/stats 200 in 262ms
+ GET /api/projects 200 in 4ms
+ GET /api/stats 200 in 4ms
+ ✓ Compiled /api/projects/[id] in 71ms (402 modules)
+ GET /api/projects/a7612c5f-8385-464b-86d8-4246f232396e 200 in 278ms
+ GET /api/projects 200 in 29ms
+ GET /api/stats 200 in 42ms
+ GET /api/projects 200 in 5ms
+ GET /api/stats 200 in 6ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1224ms
+ GET /api/reels 200 in 856ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1213ms
+ GET /api/reels 200 in 844ms
+ GET /api/reels 200 in 868ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1121ms
+ GET /api/reels 200 in 882ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1103ms
+ GET /api/reels 200 in 901ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1145ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1151ms
+ GET /api/reels 200 in 823ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 932ms
+ GET /api/reels 200 in 873ms
+ GET /api/reels 200 in 838ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1084ms
+ GET /api/reels 200 in 898ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 921ms
+ GET /api/reels 200 in 972ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1167ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1261ms
+ GET /api/reels 200 in 871ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1059ms
+ GET /api/reels 200 in 842ms
+ GET /api/reels 200 in 905ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1075ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 896ms
+ GET /api/reels 200 in 888ms
+ GET /api/reels 200 in 932ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1148ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1094ms
+ GET /api/reels 200 in 902ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 966ms
+ GET /api/reels 200 in 847ms
+ GET /api/reels 200 in 833ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 904ms
+ GET /api/reels 200 in 903ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1109ms
+ GET /api/reels 200 in 945ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 976ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1184ms
+ GET /api/reels 200 in 816ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 940ms
+ GET /api/reels 200 in 804ms
+ GET /api/reels 200 in 886ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1178ms
+ GET /api/reels 200 in 862ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 980ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 945ms
+ GET /api/reels 200 in 938ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1060ms
+ GET /api/reels 200 in 934ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1129ms
+ GET /api/reels 200 in 793ms
+ GET /api/reels 200 in 861ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 942ms
+ GET /api/reels 200 in 928ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1133ms
+ GET /api/reels 200 in 859ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1144ms
+ GET /api/reels 200 in 1033ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1194ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 4859ms
+ GET /api/reels 200 in 913ms
+ GET /api/projects 200 in 109ms
+ GET /api/stats 200 in 131ms
+ GET /api/projects 200 in 8ms
+ GET /api/stats 200 in 13ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1242ms
+ GET /api/reels 200 in 950ms
+ GET /api/reels 200 in 886ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1115ms
+ GET /api/reels 200 in 933ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1014ms
+ GET /api/reels 200 in 939ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 961ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 923ms
+ GET /api/reels 200 in 831ms
+ GET /api/stats 200 in 44ms
+ GET /api/projects 200 in 43ms
+ GET /api/projects 200 in 4ms
+ GET /api/stats 200 in 10ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1033ms
+ GET /api/reels 200 in 787ms
+ GET /api/reels 200 in 864ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1161ms
+ GET /api/reels 200 in 819ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 2570ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 897ms
+ GET /api/reels 200 in 1021ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1300ms
+ GET /api/reels 200 in 3231ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1118ms
+ GET /api/reels 200 in 865ms
+ GET /api/reels 200 in 871ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1062ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 976ms
+ GET /api/reels 200 in 948ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 921ms
+ GET /api/reels 200 in 1018ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1052ms
+ GET /api/reels 200 in 844ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1223ms
+ GET /api/reels 200 in 973ms
+ GET /api/reels 200 in 958ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1199ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 994ms
+ GET /api/reels 200 in 993ms
+ GET /api/reels 200 in 1076ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1127ms
+ GET /api/reels 200 in 945ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1168ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1210ms
+ GET /api/reels 200 in 882ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1203ms
+ GET /api/reels 200 in 910ms
+ GET /api/stats 200 in 50ms
+ GET /api/projects 200 in 52ms
+ GET /api/projects 200 in 5ms
+ GET /api/stats 200 in 6ms
+ GET /api/reels 200 in 905ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1135ms
+ GET /api/projects/a7612c5f-8385-464b-86d8-4246f232396e 200 in 51ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 895ms
+ GET /api/reels 200 in 898ms
+ GET /api/reels 200 in 915ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1220ms
+ GET /api/stats 200 in 40ms
+ GET /api/projects 200 in 41ms
+ GET /api/projects 200 in 4ms
+ GET /api/stats 200 in 10ms
+ GET /api/projects/a7612c5f-8385-464b-86d8-4246f232396e 200 in 83ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1095ms
+ GET /api/reels 200 in 1130ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1003ms
+ GET /api/reels 200 in 798ms
+ GET /api/reels 200 in 835ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 964ms
+ GET /api/reels 200 in 930ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 999ms
+ GET /api/reels 200 in 768ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 809ms
+ GET /api/projects 200 in 39ms
+ GET /api/stats 200 in 66ms
+ GET /api/projects 200 in 16ms
+ GET /api/stats 200 in 16ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1212ms (679 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 1484ms
+ GET /api/projects 200 in 73ms
+ GET /api/projects 200 in 75ms
+ GET /api/stats 200 in 80ms
+ GET /api/stats 200 in 101ms
+ ✓ Compiled /api/ads in 95ms (397 modules)
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1222ms
+ ✓ Compiled /api/reels in 62ms (401 modules)
+ GET /api/reels 200 in 1067ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1035ms
+ GET /api/reels 200 in 844ms
+ GET /api/reels 200 in 905ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1335ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 904ms
+ GET /api/reels 200 in 900ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 798ms
+ GET /api/reels 200 in 801ms
+[Sheets] Header row: [
+  'Ads link',
+  'Page Name',
+  'Body Text',
+  'CTA Text',
+  'URL Link',
+  'Media',
+  'Started Date',
+  'End Date',
+  'Improvement Scope',
+  'cover image'
+]
+[Sheets] Column map: {
+  adsLink: 0,
+  pageName: 1,
+  bodyText: 2,
+  ctaText: 3,
+  urlLink: 4,
+  media: 5,
+  startedDate: 6,
+  endDate: 7,
+  improvementScope: 8,
+  coverImage: 9
+}
+ GET /api/ads 200 in 1801ms
+ ✓ Compiled in 1022ms (337 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 276ms
+ GET / 200 in 260ms
+ GET /api/reels 200 in 1013ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 853ms (721 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 996ms
+ ✓ Compiled in 452ms (735 modules)

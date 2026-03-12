@@ -1536,3 +1536,1488 @@ Require stack:
  ✓ Compiled in 47ms (521 modules)
  ✓ Compiled in 169ms (521 modules)
  ✓ Compiled in 64ms (521 modules)
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ GET /api/ads 500 in 96ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/reels/route.js:1:3326
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/reels/route.js:1:3371)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/reels'
+}
+ GET /api/ads 500 in 161ms
+ GET /api/ads 500 in 158ms
+ GET /api/reels 500 in 158ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ GET /api/ads 500 in 123ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/reels/route.js:1:3326
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/reels/route.js:1:3371)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/reels'
+}
+ GET /api/ads 500 in 97ms
+ GET /api/reels 500 in 89ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ GET /api/ads 500 in 28ms
+ GET / 200 in 741ms
+ GET /_next/static/css/app/layout.css?v=1773293108647 404 in 32ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 48ms
+ GET /_next/static/chunks/main-app.js?v=1773293108647 404 in 54ms
+ GET /_next/static/chunks/app/page.js 404 in 44ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ GET /api/ads 500 in 67ms
+ GET / 200 in 70ms
+ GET /_next/static/css/app/layout.css?v=1773293685963 404 in 16ms
+ GET /_next/static/chunks/main-app.js?v=1773293685963 404 in 43ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 42ms
+ GET /_next/static/chunks/app/page.js 404 in 42ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ GET /api/ads 500 in 191ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/reels/route.js:1:3326
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/reels/route.js:1:3371)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/reels'
+}
+ GET /api/reels 500 in 90ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ GET /api/ads 500 in 7ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/_not-found/page.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ GET /api/ads 500 in 98ms
+ ✓ Compiled in 1223ms (878 modules)
+ ✓ Compiled /api/reels in 174ms (430 modules)
+ ✓ Compiled (434 modules)
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/reels/route.js:1:3326
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/reels/route.js:1:3371)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/reels'
+}
+ ✓ Compiled /_error in 129ms (940 modules)
+ GET /api/ads 500 in 329ms
+ GET /api/ads 500 in 412ms
+ GET /api/reels 500 in 409ms
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/pages/_document.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/pages/_document.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ GET /api/ads 500 in 34ms
+ ⨯ ./src/components/CompetitorAdsLibraryForm.tsx
+Error: 
+  [31mx[0m Unexpected token `div`. Expected jsx identifier
+    ,-[[36;1;4m/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /src/components/CompetitorAdsLibraryForm.tsx[0m:43:1]
+ [2m43[0m |     };
+ [2m44[0m | 
+ [2m45[0m |     return (
+ [2m46[0m |         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm">
+    : [31;1m         ^^^[0m
+ [2m47[0m |             <div className="w-full max-w-md p-6 rounded-2xl shadow-xl" style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)' }}>
+ [2m48[0m |                 <div className="flex items-center justify-between mb-6">
+ [2m49[0m |                     <h2 className="text-xl font-bold" style={{ color: 'var(--text-primary)' }}>Competitor Ads Library</h2>
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/CompetitorAdsLibraryForm.tsx
+./src/app/page.tsx
+ ✓ Compiled in 194ms (950 modules)
+ ✓ Compiled /api/reels in 147ms (434 modules)
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12946
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js:1:12991)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/ads'
+}
+ ⨯ Error: Cannot find module './948.js'
+Require stack:
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js
+- /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1420:15)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:203:28)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js:167:22)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/reels/route.js:1:3326
+    at Object.<anonymous> (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/reels/route.js:1:3371)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14)
+    at Object..js (node:internal/modules/cjs/loader:1892:10)
+    at Module.load (node:internal/modules/cjs/loader:1480:32)
+    at Module._load (node:internal/modules/cjs/loader:1299:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1503:12)
+    at mod.require (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js:109:84)
+    at /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:84
+    at async loadComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js:98:26)
+    at async DevServer.findPageComponentsImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:710:36)
+    at async DevServer.findPageComponents (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1917:24)
+    at async DevServer.renderToResponseImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:1969:32)
+    at async DevServer.pipeImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:920:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/next-server.js:272:17)
+    at async DevServer.handleRequestImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/base-server.js:816:17)
+    at async /Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:339:20
+    at async Span.traceAsyncFn (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/trace/trace.js:154:20)
+    at async DevServer.handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/next-dev-server.js:336:24)
+    at async invokeRender (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:174:21)
+    at async handleRequest (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:353:24)
+    at async requestHandlerImpl (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js:377:13)
+    at async Server.requestListener (/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/webpack-runtime.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /.next/server/app/api/ads/route.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/require.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/load-components.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/build/utils.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-middleware.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/dev/hot-reloader-webpack.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/router-server.js',
+    '/Users/punitkumar/Downloads/instagram linkedin video/whatsapp image/small group video /Meta ads ai system /node_modules/next/dist/server/lib/start-server.js'
+  ],
+  page: '/api/reels'
+}
+ ✓ Compiled /_error in 84ms (940 modules)
+ GET /api/ads 500 in 318ms
+ GET /api/ads 500 in 315ms
+ GET /api/reels 500 in 316ms
+ GET / 200 in 114ms
+ ✓ Compiled /_not-found in 136ms (943 modules)
+ GET /_next/static/chunks/app-pages-internals.js 404 in 155ms
+ GET /_next/static/chunks/main-app.js?v=1773294317686 404 in 157ms
+ GET / 200 in 98ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 10ms
+ GET /_next/static/chunks/main-app.js?v=1773294361068 404 in 11ms
+[?25h

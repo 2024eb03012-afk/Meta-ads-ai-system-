@@ -29,25 +29,36 @@ export default function CreativeResearchSystem() {
     const fetchStats = async () => {
         try {
             const res = await fetch('/api/stats');
+            if (!res.ok) return;
             const data = await res.json();
-            setStats(data);
-        } catch (e) { }
+            if (data && typeof data === 'object') setStats(data);
+        } catch (e) {
+            console.error('Stats fetch failed', e);
+        }
     };
 
     const fetchProjects = async () => {
         try {
             const res = await fetch('/api/projects');
+            if (!res.ok) return;
             const data = await res.json();
-            setProjects(data);
-        } catch (e) { }
+            if (Array.isArray(data)) setProjects(data);
+        } catch (e) {
+            console.error('Projects fetch failed', e);
+        }
     };
 
     const fetchProjectDetails = async (id: string) => {
         try {
             const res = await fetch(`/api/projects/${id}`);
+            if (!res.ok) return;
             const data = await res.json();
-            setProjects(prev => prev.map(p => p.id === id ? data : p)); // Update active project with full details
-        } catch (e) { }
+            if (data && data.id) {
+                setProjects(prev => prev.map(p => p.id === id ? data : p));
+            }
+        } catch (e) {
+            console.error('Project details fetch failed', e);
+        }
     };
 
     const createProject = async () => {
