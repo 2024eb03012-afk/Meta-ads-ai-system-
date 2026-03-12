@@ -22,7 +22,7 @@ export default function CompetitorAdsLibraryForm({ onClose }: Props) {
             formData.append('adsLibraryLink', adsLibraryLink);
             formData.append('timestamp', new Date().toISOString());
 
-            const response = await fetch('https://n8n.smallgrp.com/webhook-test/725993f0-96a0-44d7-9cf0-f5e7ed9649d4', {
+            const response = await fetch('https://n8n.smallgrp.com/webhook/725993f0-96a0-44d7-9cf0-f5e7ed9649d4', {
                 method: 'POST',
                 body: formData,
                 mode: 'no-cors' // Webhook might not support CORS for this origin
