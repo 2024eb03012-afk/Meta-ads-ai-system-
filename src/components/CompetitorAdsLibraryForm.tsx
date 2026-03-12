@@ -7,6 +7,7 @@ interface Props {
 
 export default function CompetitorAdsLibraryForm({ onClose }: Props) {
     const [adsLibraryLink, setAdsLibraryLink] = useState('');
+    const [keywords, setKeywords] = useState('');
     const [loading, setLoading] = useState(false);
     const [success, setSuccess] = useState(false);
     const [error, setError] = useState<string | null>(null);
@@ -20,6 +21,7 @@ export default function CompetitorAdsLibraryForm({ onClose }: Props) {
         try {
             const formData = new FormData();
             formData.append('adsLibraryLink', adsLibraryLink);
+            formData.append('keywords', keywords);
             formData.append('timestamp', new Date().toISOString());
 
             const response = await fetch('https://n8n.smallgrp.com/webhook/725993f0-96a0-44d7-9cf0-f5e7ed9649d4', {
@@ -64,6 +66,22 @@ export default function CompetitorAdsLibraryForm({ onClose }: Props) {
                                 value={adsLibraryLink}
                                 onChange={(e) => setAdsLibraryLink(e.target.value)}
                                 placeholder="https://www.facebook.com/ads/library/..."
+                                className="w-full px-4 py-2.5 rounded-xl text-sm outline-none transition-all"
+                                style={{
+                                    background: 'var(--bg-primary)',
+                                    border: '1px solid var(--border-color)',
+                                    color: 'var(--text-primary)',
+                                }}
+                            />
+                        </div>
+
+                        <div>
+                            <label className="block text-sm font-medium mb-1.5" style={{ color: 'var(--text-secondary)' }}>Keywords <span className="text-[10px] opacity-70">(Coming Soon)</span></label>
+                            <input
+                                type="text"
+                                value={keywords}
+                                onChange={(e) => setKeywords(e.target.value)}
+                                placeholder="any keywords (coming soon)"
                                 className="w-full px-4 py-2.5 rounded-xl text-sm outline-none transition-all"
                                 style={{
                                     background: 'var(--bg-primary)',
