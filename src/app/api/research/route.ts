@@ -53,6 +53,7 @@ The research must deeply analyze:
 
         return NextResponse.json(updated);
     } catch (error: any) {
+        console.error('Research API Error:', error);
         return NextResponse.json({ error: error.message }, { status: 500 });
     }
 }

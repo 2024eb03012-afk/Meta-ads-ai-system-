@@ -10,7 +10,8 @@ export async function GET() {
             include: { _count: { select: { angles: true } } }
         });
         return NextResponse.json(projects);
-    } catch {
+    } catch (e: any) {
+        console.error('Projects GET Error:', e);
         return NextResponse.json({ error: 'Failed' }, { status: 500 });
     }
 }
@@ -27,7 +28,8 @@ export async function POST(req: Request) {
             }
         });
         return NextResponse.json(project);
-    } catch {
-        return NextResponse.json({ error: 'Failed' }, { status: 500 });
+    } catch (e: any) {
+        console.error('Project Creation POST Error:', e);
+        return NextResponse.json({ error: e.message || 'Failed to create project' }, { status: 500 });
     }
 }

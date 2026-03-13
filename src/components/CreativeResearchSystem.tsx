@@ -15,6 +15,7 @@ export default function CreativeResearchSystem() {
     const [projects, setProjects] = useState<any[]>([]);
     const [selectedProjectId, setSelectedProjectId] = useState<string | null>(null);
     const [loading, setLoading] = useState(false);
+    const [error, setError] = useState<string | null>(null);
 
     const [newProject, setNewProject] = useState({ productName: '', productDescription: '', productNotes: '', brandNarrative: '' });
     const [showNewProject, setShowNewProject] = useState(false);
@@ -63,6 +64,7 @@ export default function CreativeResearchSystem() {
 
     const createProject = async () => {
         setLoading(true);
+        setError(null);
         try {
             const res = await fetch('/api/projects', {
                 method: 'POST',
@@ -70,13 +72,21 @@ export default function CreativeResearchSystem() {
                 body: JSON.stringify(newProject)
             });
             const data = await res.json();
+
+            if (data.error || !data.id) {
+                throw new Error(data.error || 'Failed to create project');
+            }
+
             setProjects([data, ...projects]);
             setShowNewProject(false);
             setNewProject({ productName: '', productDescription: '', productNotes: '', brandNarrative: '' });
             setSelectedProjectId(data.id);
             setActiveTab('research');
             fetchStats();
-        } catch (e) {
+        } catch (e: any) {
+            console.error('Project creation failed', e);
+            setError(e.message || 'Check database connection or API keys');
+            alert(e.message || 'Failed to create project. Please verify your database configuration.');
         } finally {
             setLoading(false);
         }

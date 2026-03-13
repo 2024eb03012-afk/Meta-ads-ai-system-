@@ -39,7 +39,7 @@ Use emotional persuasion techniques including loss aversion, social proof, autho
 Write in conversational spoken language suitable for video ads. Do not include explanations. Only output the final script.`;
 
         const response = await ai.models.generateContent({
-            model: 'gemini-2.5-flash',
+            model: 'gemini-1.5-flash',
             contents: prompt
         });
 
@@ -54,6 +54,7 @@ Write in conversational spoken language suitable for video ads. Do not include e
 
         return NextResponse.json(script);
     } catch (error: any) {
+        console.error('Script Generation Error:', error);
         return NextResponse.json({ error: error.message }, { status: 500 });
     }
 }

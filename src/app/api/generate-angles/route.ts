@@ -31,7 +31,7 @@ Return ONLY VALID JSON matching this structure without any markdown ticks:
 ]`;
 
         const response = await ai.models.generateContent({
-            model: 'gemini-2.5-flash',
+            model: 'gemini-1.5-flash',
             contents: prompt
         });
 
@@ -50,6 +50,7 @@ Return ONLY VALID JSON matching this structure without any markdown ticks:
         const angles = await prisma.angle.findMany({ where: { projectId } });
         return NextResponse.json(angles);
     } catch (error: any) {
+        console.error('Angles Generation Error:', error);
         return NextResponse.json({ error: error.message }, { status: 500 });
     }
 }

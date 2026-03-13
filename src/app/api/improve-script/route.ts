@@ -29,7 +29,7 @@ CALL TO ACTION
 Output ONLY the revised script, no additional text or explanations.`;
 
         const response = await ai.models.generateContent({
-            model: 'gemini-2.5-flash',
+            model: 'gemini-1.5-flash',
             contents: prompt
         });
 
@@ -48,6 +48,7 @@ Output ONLY the revised script, no additional text or explanations.`;
 
         return NextResponse.json(updatedScript);
     } catch (error: any) {
+        console.error('Script Improvement Error:', error);
         return NextResponse.json({ error: error.message }, { status: 500 });
     }
 }
