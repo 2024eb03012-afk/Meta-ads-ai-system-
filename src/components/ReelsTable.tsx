@@ -14,6 +14,7 @@ interface ReelData {
     caption: string;
     uploadedDate: string;
     transcript: string;
+    sheetOrder: number;
 }
 
 interface ReelsTableProps {
@@ -49,7 +50,7 @@ function ExpandableText({ text, maxLen = 80 }: { text: string; maxLen?: number }
 }
 
 export default function ReelsTable({ reels }: ReelsTableProps) {
-    const [sortKey, setSortKey] = useState<SortKey>('viewCount');
+    const [sortKey, setSortKey] = useState<SortKey>('sheetOrder');
     const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
     const [page, setPage] = useState(1);
     const [brandFilter, setBrandFilter] = useState('all');

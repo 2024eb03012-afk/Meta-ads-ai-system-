@@ -16,6 +16,7 @@ export interface AdData {
     isTopPerforming: boolean;
     isActive: boolean;
     status: 'active' | 'ended' | 'top_performing';
+    sheetOrder: number; // original position in Google Sheet
 }
 
 export interface DashboardStats {

@@ -128,18 +128,36 @@ function MediaCell({ media, mediaUrl, onPlay }: { media: string; mediaUrl: strin
 
     return (
         <div className="flex items-center gap-1.5">
-            {/* Media type badge */}
-            <span
-                className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-xs font-medium whitespace-nowrap"
+            {/* Media type badge — clickable if it's a video with a URL */}
+            <button
+                onClick={e => {
+                    if (hasUrl && isVideo) {
+                        e.stopPropagation();
+                        onPlay();
+                    }
+                }}
+                disabled={!hasUrl && isVideo}
+                className={`inline-flex items-center gap-1 px-2 py-1 rounded-md text-xs font-medium whitespace-nowrap transition-all ${hasUrl && isVideo ? 'cursor-pointer hover:scale-105 active:scale-95 group' : ''}`}
                 style={{
                     background: isVideo ? 'rgba(236,72,153,0.12)' : 'rgba(99,102,241,0.12)',
                     border: `1px solid ${isVideo ? 'rgba(236,72,153,0.3)' : 'rgba(99,102,241,0.3)'}`,
                     color: isVideo ? '#ec4899' : '#6366f1',
+                    boxShadow: hasUrl && isVideo ? '0 0 10px rgba(236,72,153,0.1)' : 'none'
                 }}
+                title={hasUrl && isVideo ? "Click to play video" : ""}
             >
-                {isVideo ? <Video size={11} /> : <ImageIcon size={11} />}
+                {isVideo ? (
+                    <Video size={11} className={hasUrl ? 'text-[#ec4899] animate-pulse-slow' : ''} />
+                ) : (
+                    <ImageIcon size={11} />
+                )}
                 {isVideo ? 'Video' : (media || 'Image')}
-            </span>
+                {hasUrl && isVideo && (
+                    <div className="hidden group-hover:block ml-1 opacity-60">
+                        ▶
+                    </div>
+                )}
+            </button>
 
             {/* Play button — opens inline video modal */}
             {hasUrl && (
@@ -275,7 +293,7 @@ function ExpandableText({ text, maxLen = 80 }: { text: string; maxLen?: number }
 
 export default function AdsTable({ ads, onSelectAd, title, limit }: AdsTableProps) {
     const [selected, setSelected] = useState<Set<string>>(new Set());
-    const [sortKey, setSortKey] = useState<SortKey>('adDuration');
+    const [sortKey, setSortKey] = useState<SortKey>('sheetOrder');
     const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
     const [page, setPage] = useState(1);
     const [competitorFilter, setCompetitorFilter] = useState('all');

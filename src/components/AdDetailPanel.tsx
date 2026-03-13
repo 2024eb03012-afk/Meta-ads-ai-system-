@@ -3,7 +3,7 @@
 import { AdData } from '@/types';
 import {
     X, ExternalLink, Eye, Clock, Award, Target, Brain, Lightbulb,
-    Users, Zap, MessageSquare, TrendingUp, Copy, Share2, Bookmark, Video, Image as ImageIcon
+    Users, Zap, MessageSquare, TrendingUp, Copy, Share2, Bookmark, Video, Image as ImageIcon, Play
 } from 'lucide-react';
 import { format } from 'date-fns';
 import { useState } from 'react';
@@ -113,9 +113,11 @@ export default function AdDetailPanel({ ad, onClose }: Props) {
     const [bookmarked, setBookmarked] = useState(false);
     const [note, setNote] = useState('');
     const [showNoteEditor, setShowNoteEditor] = useState(false);
+    const [playingVideoUrl, setPlayingVideoUrl] = useState<string | null>(null);
 
     const sections = parseImprovementScope(ad.improvementScope);
     const isVideo = ad.media?.toLowerCase().includes('video');
+    const hasMediaUrl = !!ad.mediaUrl;
 
     const copyBodyText = () => {
         navigator.clipboard.writeText(ad.bodyText);
@@ -213,31 +215,58 @@ export default function AdDetailPanel({ ad, onClose }: Props) {
                             Ad Creative Preview
                         </h3>
                         <div
-                            className="w-full h-44 rounded-xl flex flex-col items-center justify-center gap-3"
+                            className="w-full min-h-[11rem] rounded-xl flex flex-col items-center justify-center gap-3 p-4 relative overflow-hidden group"
                             style={{
                                 background: 'var(--bg-primary)',
                                 border: '1px dashed var(--border-color)',
+                                backgroundImage: ad.coverImage ? `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(${ad.coverImage})` : 'none',
+                                backgroundSize: 'cover',
+                                backgroundPosition: 'center'
                             }}
                         >
                             {isVideo ? (
-                                <Video size={40} style={{ color: 'var(--accent-secondary)', opacity: 0.6 }} />
+                                <div className="flex flex-col items-center gap-2">
+                                    {hasMediaUrl ? (
+                                        <button
+                                            onClick={() => setPlayingVideoUrl(ad.mediaUrl)}
+                                            className="w-14 h-14 rounded-full flex items-center justify-center transition-all hover:scale-110 active:scale-95 shadow-xl"
+                                            style={{ background: 'linear-gradient(135deg, #ec4899, #f59e0b)' }}
+                                        >
+                                            <Play size={24} fill="white" className="text-white ml-1" />
+                                        </button>
+                                    ) : (
+                                        <Video size={40} style={{ color: 'var(--accent-secondary)', opacity: 0.6 }} />
+                                    )}
+                                </div>
                             ) : (
                                 <ImageIcon size={40} style={{ color: 'var(--accent-secondary)', opacity: 0.6 }} />
                             )}
-                            <span className="text-sm font-medium" style={{ color: 'var(--text-muted)' }}>
+                            <span className="text-sm font-medium" style={{ color: ad.coverImage ? 'white' : 'var(--text-muted)' }}>
                                 {isVideo ? 'Video Ad' : 'Image Ad'}
                             </span>
-                            {ad.adsLink && (
-                                <a
-                                    href={ad.adsLink}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="flex items-center gap-1.5 px-4 py-2 rounded-lg text-sm font-medium btn-primary text-white"
-                                >
-                                    <Eye size={14} />
-                                    View Ad on Meta
-                                </a>
-                            )}
+
+                            <div className="flex items-center gap-2">
+                                {ad.adsLink && (
+                                    <a
+                                        href={ad.adsLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium btn-primary text-white"
+                                    >
+                                        <Eye size={13} />
+                                        View on Meta
+                                    </a>
+                                )}
+                                {hasMediaUrl && (
+                                    <button
+                                        onClick={() => setPlayingVideoUrl(ad.mediaUrl)}
+                                        className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-white/10 text-white backdrop-blur-md border border-white/20 hover:bg-white/20 transition-all"
+                                    >
+                                        <Play size={13} fill="white" />
+                                        Play Video
+                                    </button>
+                                )}
+                            </div>
                         </div>
                     </section>
 
@@ -426,6 +455,34 @@ export default function AdDetailPanel({ ad, onClose }: Props) {
                     <div className="h-4" />
                 </div>
             </div>
+
+            {/* Video Player Modal */}
+            {playingVideoUrl && (
+                <div
+                    className="fixed inset-0 z-[100] flex items-center justify-center p-4 backdrop-blur-md bg-black/80"
+                    onClick={() => setPlayingVideoUrl(null)}
+                >
+                    <div
+                        className="relative bg-black rounded-2xl overflow-hidden shadow-2xl max-w-4xl w-full"
+                        onClick={e => e.stopPropagation()}
+                    >
+                        <button
+                            onClick={() => setPlayingVideoUrl(null)}
+                            className="absolute top-4 right-4 z-10 p-2 rounded-full bg-black/50 text-white hover:bg-black/70 transition-all"
+                        >
+                            <X size={20} />
+                        </button>
+                        <video
+                            src={playingVideoUrl}
+                            controls
+                            autoPlay
+                            className="w-full max-h-[85vh]"
+                        >
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            )}
         </>
     );
 }

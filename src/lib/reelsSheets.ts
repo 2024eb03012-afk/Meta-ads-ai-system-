@@ -14,6 +14,7 @@ export interface ReelData {
     caption: string;
     uploadedDate: string;
     transcript: string;
+    sheetOrder: number;
 }
 
 function parseDate(dateStr: string): Date | null {
@@ -98,9 +99,11 @@ function parseReelsCSV(csvText: string): ReelData[] {
                 caption: getCol(cols, 'caption'),
                 uploadedDate: getCol(cols, 'uploadedDate'),
                 transcript: getCol(cols, 'transcript'),
+                sheetOrder: index,
             };
         })
-        .filter(reel => reel.brandName || reel.videoUrl); // drop completely empty rows
+        .filter(reel => reel.brandName || reel.videoUrl) // drop completely empty rows
+        .reverse(); // Show last rows from sheet first
 }
 
 function parseCSVToRows(csvText: string): string[][] {

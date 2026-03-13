@@ -173,20 +173,29 @@ function parseCSV(csvText: string): AdData[] {
                 isTopPerforming,
                 isActive,
                 status,
+                sheetOrder: index,
             };
         })
         .filter(ad => ad.pageName && ad.pageName !== '' &&
-            !ad.pageName.startsWith('Competitor '));  // drop blank rows
+            !ad.pageName.startsWith('Competitor ')) // drop blank rows
+        .reverse(); // Show last rows from sheet first
 }
 
 // ── Parse "VIDEO:https://url" or "IMAGE:https://url" format from the Media column ──
 // Returns the clean media type label and the extracted URL separately
 function parseMediaField(raw: string): { mediaType: string; mediaUrl: string } {
     if (!raw) return { mediaType: '', mediaUrl: '' };
-    const colonIdx = raw.indexOf(':');
+    const cleaned = raw.trim();
+
+    // Check if it's already a raw URL (common mistake in data entry)
+    if (cleaned.startsWith('http://') || cleaned.startsWith('https://')) {
+        return { mediaType: 'Video', mediaUrl: cleaned };
+    }
+
+    const colonIdx = cleaned.indexOf(':');
     if (colonIdx !== -1) {
-        const prefix = raw.slice(0, colonIdx).trim().toUpperCase();
-        const rest = raw.slice(colonIdx + 1).trim();
+        const prefix = cleaned.slice(0, colonIdx).trim().toUpperCase();
+        const rest = cleaned.slice(colonIdx + 1).trim();
         if (rest.startsWith('http://') || rest.startsWith('https://')) {
             // e.g. "VIDEO" → "Video"
             const mediaType = prefix.charAt(0) + prefix.slice(1).toLowerCase();
@@ -194,7 +203,7 @@ function parseMediaField(raw: string): { mediaType: string; mediaUrl: string } {
         }
     }
     // No URL embedded — raw value is just the type label ("Video", "DCO", etc.)
-    return { mediaType: raw, mediaUrl: '' };
+    return { mediaType: cleaned, mediaUrl: '' };
 }
 
 // ── RFC-4180 compliant CSV tokenizer ──────────────────────────────────────────
@@ -479,6 +488,7 @@ export function getMockData(): AdData[] {
             adDuration,
             isTopPerforming,
             isActive,
+            sheetOrder: i,
             status: (isTopPerforming ? 'top_performing' : isActive ? 'active' : 'ended') as AdData['status'],
         };
     });
