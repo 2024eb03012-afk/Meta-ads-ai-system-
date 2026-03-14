@@ -33,9 +33,16 @@ Return ONLY VALID JSON matching this structure without any markdown ticks:
         const response = await ai.models.generateContent({
             model: 'gemini-1.5-flash',
             contents: prompt
-        });
+        }) as any;
 
-        const text = (response.text || '').replace(/```json/gi, '').replace(/```/g, '').trim();
+        // Robust text extraction
+        let text = '';
+        if (typeof response.text === 'function') text = response.text();
+        else if (typeof response.text === 'string') text = response.text;
+        else if (response.response && typeof response.response.text === 'function') text = response.response.text();
+        else if (response.candidates?.[0]?.content?.parts?.[0]?.text) text = response.candidates[0].content.parts[0].text;
+
+        text = text.replace(/```json/gi, '').replace(/```/g, '').trim();
         const parsedAngles = JSON.parse(text);
 
         for (const angle of parsedAngles) {

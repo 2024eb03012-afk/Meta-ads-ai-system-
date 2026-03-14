@@ -95,14 +95,20 @@ export default function CreativeResearchSystem() {
     const generateResearch = async () => {
         if (!selectedProjectId) return;
         setLoading(true);
+        setError(null);
         try {
             const res = await fetch('/api/research', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ projectId: selectedProjectId })
             });
+            const data = await res.json();
+            if (data.error) throw new Error(data.error);
+
             await fetchProjectDetails(selectedProjectId);
-        } catch (e) {
+        } catch (e: any) {
+            console.error('Research generation failed', e);
+            alert(`Research Error: ${e.message}`);
         } finally {
             setLoading(false);
         }
@@ -111,15 +117,21 @@ export default function CreativeResearchSystem() {
     const generateAngles = async () => {
         if (!selectedProjectId) return;
         setLoading(true);
+        setError(null);
         try {
             const res = await fetch('/api/generate-angles', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ projectId: selectedProjectId })
             });
+            const data = await res.json();
+            if (data.error) throw new Error(data.error);
+
             await fetchProjectDetails(selectedProjectId);
             fetchStats();
-        } catch (e) {
+        } catch (e: any) {
+            console.error('Angles generation failed', e);
+            alert(`Angles Error: ${e.message}`);
         } finally {
             setLoading(false);
         }
@@ -127,15 +139,21 @@ export default function CreativeResearchSystem() {
 
     const generateScript = async (angleId: string) => {
         setLoading(true);
+        setError(null);
         try {
             const res = await fetch('/api/generate-script', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ angleId })
             });
+            const data = await res.json();
+            if (data.error) throw new Error(data.error);
+
             if (selectedProjectId) await fetchProjectDetails(selectedProjectId);
             fetchStats();
-        } catch (e) {
+        } catch (e: any) {
+            console.error('Script generation failed', e);
+            alert(`Script Error: ${e.message}`);
         } finally {
             setLoading(false);
         }
@@ -143,14 +161,20 @@ export default function CreativeResearchSystem() {
 
     const improveScript = async (scriptId: string, feedback: string) => {
         setLoading(true);
+        setError(null);
         try {
             const res = await fetch('/api/improve-script', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ scriptId, feedback })
             });
+            const data = await res.json();
+            if (data.error) throw new Error(data.error);
+
             if (selectedProjectId) await fetchProjectDetails(selectedProjectId);
-        } catch (e) {
+        } catch (e: any) {
+            console.error('Script improvement failed', e);
+            alert(`Assistant Error: ${e.message || 'Check connection'}`);
         } finally {
             setLoading(false);
         }

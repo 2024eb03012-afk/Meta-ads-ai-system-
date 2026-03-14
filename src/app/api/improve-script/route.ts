@@ -31,9 +31,17 @@ Output ONLY the revised script, no additional text or explanations.`;
         const response = await ai.models.generateContent({
             model: 'gemini-1.5-flash',
             contents: prompt
-        });
+        }) as any;
 
-        const updatedText = (response.text || '').trim();
+        // Robust text extraction
+        let updatedText = '';
+        if (typeof response.text === 'function') updatedText = response.text();
+        else if (typeof response.text === 'string') updatedText = response.text;
+        else if (response.response && typeof response.response.text === 'function') updatedText = response.response.text();
+        else if (response.candidates?.[0]?.content?.parts?.[0]?.text) updatedText = response.candidates[0].content.parts[0].text;
+
+        if (!updatedText) throw new Error('Gemini returned an empty revision');
+        updatedText = updatedText.trim();
 
         const historyObj = script.feedbackHistory ? JSON.parse(script.feedbackHistory) : [];
         historyObj.push({ feedback, previousScript: script.scriptText, date: new Date().toISOString() });

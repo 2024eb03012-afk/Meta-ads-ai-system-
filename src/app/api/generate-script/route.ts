@@ -41,9 +41,17 @@ Write in conversational spoken language suitable for video ads. Do not include e
         const response = await ai.models.generateContent({
             model: 'gemini-1.5-flash',
             contents: prompt
-        });
+        }) as any;
 
-        const scriptText = (response.text || '').trim();
+        // Robust text extraction
+        let scriptText = '';
+        if (typeof response.text === 'function') scriptText = response.text();
+        else if (typeof response.text === 'string') scriptText = response.text;
+        else if (response.response && typeof response.response.text === 'function') scriptText = response.response.text();
+        else if (response.candidates?.[0]?.content?.parts?.[0]?.text) scriptText = response.candidates[0].content.parts[0].text;
+
+        if (!scriptText) throw new Error('Gemini returned an empty script');
+        scriptText = scriptText.trim();
 
         const script = await prisma.script.create({
             data: {
